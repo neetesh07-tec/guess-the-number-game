@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+.container {
+  width: min(90%, 420px);
+  background: #111827;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #f9fafb;
+}
+
+#limit,
+.instructions {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  color: #9ca3af;
+}
+#limit{
+    margin-top: -20px;
+}
+
+
+#user-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  background: #1f2933;
+  color: #f9fafb;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#submit {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+}
+
+#submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.8);
+}
+
+.attampts,
+.message {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #facc15;
+  min-height: 1.2rem;
+}
+
+
+#reset {
+  background: #374151;
+  color: #e5e7eb;
+}
+
+#reset:hover {
+  background: #4b5563;
+}
+
