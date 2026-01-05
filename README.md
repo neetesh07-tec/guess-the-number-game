@@ -38,7 +38,7 @@ A simple and interactive number guessing game where the player tries to guess a 
 
 ## 📸 Screenshot
 
-![Game Screenshot](screenshot.png)
+(screenshot.png)
 
 ---
 
